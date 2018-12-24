@@ -23,7 +23,7 @@ public class User {
      */
     @Id
     @Property(nameInDb = "userId")
-    private long id;
+    private Long id;
     @Property(nameInDb = "username")
     private String name;
     private int age;
@@ -33,8 +33,8 @@ public class User {
     @Transient
     private String state;
 
-    @Generated(hash = 81111602)
-    public User(long id, String name, int age, GenderType sex) {
+    @Generated(hash = 49499506)
+    public User(Long id, String name, int age, GenderType sex) {
         this.id = id;
         this.name = name;
         this.age = age;
